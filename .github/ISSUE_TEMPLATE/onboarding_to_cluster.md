@@ -22,7 +22,7 @@ assignees: ""
     <!--
     Your team name should be a short identifier consisting of lower
     case letters, numbers, and dashes (technically, anything thing
-    satisifies [RFC 1123][1]). For example, `widget-research` is a
+    satisfies [RFC 1123][1]). For example, `widget-research` is a
     valid team name, but `Widget Research` is not, because it contains
     whitespace.
 
@@ -44,7 +44,7 @@ assignees: ""
     "projects"). Unless you request otherwise, we will create a single
     project for you with the same name as your selected team name.
 
-    If you need addtional namespaces, or want a project name that
+    If you need additional namespaces, or want a project name that
     differs from your team name, please indicate that here. Project
     names have the same requirements as team names.
     -->
@@ -65,7 +65,19 @@ assignees: ""
 
     LIST OF USERS:
 
-5. **GPG Key** (OPTIONAL)
+5. ** Namespace Quota **
+
+    <!--
+    Please pick the resource tier you need for your project from
+    this list: https://github.com/operate-first/support/blob/main/docs/quotas.md
+
+    If none of the tiers are applicable, please write "CUSTOM" and
+    specify your requirements (CPU/Memory/Storage).
+    -->
+
+    QUOTA:
+
+6. **GPG Key** (OPTIONAL)
 
     <!--
     We store all cluster configuration information in a public git
